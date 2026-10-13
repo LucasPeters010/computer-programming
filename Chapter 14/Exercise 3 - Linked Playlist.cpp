@@ -31,10 +31,14 @@ int main() {
     SongNode* third = new SongNode("Outro");
 
     // TODO 1: Connect first to second and second to third.
+    first->next = second;
+    second->next = third;
 
     SongNode* cursor = first;
     while (cursor != nullptr) {
         // TODO 2: Print cursor's title and move cursor forward.
+        std::cout << cursor->title << std::endl;
+
         // Important: Advance cursor so this loop does not run forever.
         cursor = cursor->next; // Keep this line when you add printing.
     }
@@ -42,8 +46,11 @@ int main() {
     cursor = first;
     while (cursor != nullptr) {
         // TODO 3: Save the next pointer, delete cursor, then advance.
+        SongNode* temp = cursor->next;
+        delete cursor;
+
         // Replace this temporary line once you implement cleanup.
-        cursor = cursor->next;
+        cursor = temp;
     }
 
     return 0;

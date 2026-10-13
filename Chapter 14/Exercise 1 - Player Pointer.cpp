@@ -21,11 +21,12 @@ public:
         : name(playerName), score(startingScore) {}
 
     void addPoints(int points) {
-        // TODO 1: Add points to score.
+        score += points;
     }
 
     void print() const {
         // TODO 2: Print: Alex has 15 points
+        std::cout << "Alex has " << score << " points" << std::endl;
     }
 
 private:
@@ -35,6 +36,11 @@ private:
 
 int main() {
     Player* player = new Player("Alex", 10);
+
+    player->addPoints(5);
+    player->print();
+
+    delete player;
 
     // TODO 3: Call addPoints(5) and print() through player.
 

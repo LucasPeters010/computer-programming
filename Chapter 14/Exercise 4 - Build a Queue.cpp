@@ -30,9 +30,31 @@ public:
 
     ~Queue() {
         // TODO 4: Keep removing nodes until the queue is empty.
+        while (!empty())
+        {
+            dequeue();
+        }
+
+
+        
     }
 
     void enqueue(int value) {
+
+        Node* n = new Node(value);
+
+        if (first == nullptr && last == nullptr)
+        {
+            first = n;
+            last = n;
+        }
+        else{
+            last->next = n;
+            last = n;
+
+        }
+        
+        
         // TODO 1: Allocate a node.
         // If empty: both first and last become that node.
         // Otherwise: connect last->next to the new node, then move last.
@@ -43,13 +65,22 @@ public:
             throw std::runtime_error("Queue is empty");
         }
         // TODO 2: Return the value of the first node.
-        return 0; // Replace this placeholder.
+        return first->value;
     }
 
     void dequeue() {
         if (empty()) {
-            throw std::runtime_error("Queue is empty");
+            throw std::runtime_error(" Queue is empty");
         }
+
+        Node* temp = first;
+        first = first->next;
+        delete temp;
+
+        if(first == nullptr){
+            delete last;
+        }
+ 
         // TODO 3: Save first, advance first, and delete old first.
         // If first becomes nullptr, set last to nullptr too.
     }

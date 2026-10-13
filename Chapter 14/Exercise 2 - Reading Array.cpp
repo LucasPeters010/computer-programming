@@ -21,11 +21,13 @@ public:
 
     void setBpm(int newBpm) {
         // TODO 1a: Store newBpm.
+        bpm = newBpm;
+
     }
 
     int getBpm() const {
         // TODO 1b: Return bpm (replace the placeholder).
-        return 0;
+        return bpm;
     }
 
 private:
@@ -38,14 +40,23 @@ int main() {
 
     // TODO 2: Set the three objects' BPM values: 65, 72, 79.
 
+    readings[0].setBpm(65);
+    readings[1].setBpm(72);
+    readings[2].setBpm(79);
+
     int total = 0;
     for (int i = 0; i < count; ++i) {
         // TODO 3a: Add the i-th BPM value to total.
+        total += readings[i].getBpm();
     }
+
+    std::cout << "Average BPM: " << total / count << std::endl;
 
     // TODO 3b: Print "Average BPM: " followed by total / count.
 
     // TODO 4: Release the dynamic array (not just one object).
+
+    delete[] readings;
 
     return 0;
 }
