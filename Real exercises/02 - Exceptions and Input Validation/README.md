@@ -4,7 +4,7 @@ Work in the order shown below. The level is relative to this category; an easy B
 
 | Exercise | Level | Focus |
 |---|---|---|
-| [Strict Measurement Reader](01%20-%20Easy%20-%20Strict%20Measurement%20Reader/README.md) | Easy | Read exactly three numbers from a stream, distinguishing malformed input from an invalid measurement. |
-| [Second Distinct Minimum](02%20-%20Medium%20-%20Second%20Distinct%20Minimum/README.md) | Medium | Replace ambiguous sentinel return values with custom exception objects carrying useful information. |
-| [Recoverable Transaction Log](03%20-%20Medium%20-%20Recoverable%20Transaction%20Log/README.md) | Medium | Process independent input lines while reporting errors and continuing after a bad transaction. |
-| [Atomic Score Import](04%20-%20Hard%20-%20Atomic%20Score%20Import/README.md) | Hard | Make an import all-or-nothing: one invalid line must leave an existing collection untouched. |
+| [Read a Positive Number](01%20-%20Easy%20-%20Read%20a%20Positive%20Number/README.md) | Easy | Validate one stream extraction and report two kinds of error. |
+| [Average or Error](02%20-%20Medium%20-%20Average%20or%20Error/README.md) | Medium | Use a small custom exception carrying information about bad data. |
+| [Keep Reading After Errors](03%20-%20Medium%20-%20Keep%20Reading%20After%20Errors/README.md) | Medium | Recover per line instead of stopping after one invalid entry. |
+| [Second Distinct Minimum](04%20-%20Hard%20-%20Second%20Distinct%20Minimum/README.md) | Hard | Combine an algorithm with two custom failure types. |

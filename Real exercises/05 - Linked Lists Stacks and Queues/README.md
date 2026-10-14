@@ -4,7 +4,7 @@ Work in the order shown below. The level is relative to this category; an easy B
 
 | Exercise | Level | Focus |
 |---|---|---|
-| [Vector Stack with Checkpoints](01%20-%20Easy%20-%20Vector%20Stack%20with%20Checkpoints/README.md) | Easy | Implement a vector-backed stack with an interface comparable to the Library Stack assignment, plus rollback. |
-| [Filtered Linked List](02%20-%20Medium%20-%20Filtered%20Linked%20List/README.md) | Medium | Own a singly linked list and remove matching nodes safely, including consecutive matches. |
-| [Queue Transfer](03%20-%20Medium%20-%20Queue%20Transfer/README.md) | Medium | Implement a linked queue that can move a prefix into another queue without copying its nodes. |
-| [Sorted List Merge and Split](04%20-%20Hard%20-%20Sorted%20List%20Merge%20and%20Split/README.md) | Hard | Maintain a sorted linked structure while moving ownership between lists using only pointer changes. |
+| [Basic Vector Stack](01%20-%20Easy%20-%20Basic%20Vector%20Stack/README.md) | Easy | Implement a small stack interface comparable to the core of the Library Stack. |
+| [Linked Stack Core](02%20-%20Medium%20-%20Linked%20Stack%20Core/README.md) | Medium | Implement three operations using a supplied node representation. |
+| [Linked Queue Core](03%20-%20Medium%20-%20Linked%20Queue%20Core/README.md) | Medium | Move from a one-ended stack to a two-ended queue. |
+| [Remove Matching List Nodes](04%20-%20Hard%20-%20Remove%20Matching%20List%20Nodes/README.md) | Hard | Delete matching nodes throughout a linked list. |

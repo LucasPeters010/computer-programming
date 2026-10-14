@@ -4,7 +4,7 @@ Work in the order shown below. The level is relative to this category; an easy B
 
 | Exercise | Level | Focus |
 |---|---|---|
-| [Tree Range Summary](01%20-%20Easy%20-%20Tree%20Range%20Summary/README.md) | Easy | Build an integer BST and compute structural summaries with recursive helpers. |
-| [Ordered Tree Queries](02%20-%20Medium%20-%20Ordered%20Tree%20Queries/README.md) | Medium | Implement a BST interface that returns sorted values, height and neighbouring keys. |
-| [Tree Paths and Balance](03%20-%20Medium%20-%20Tree%20Paths%20and%20Balance/README.md) | Medium | Compute properties that depend on tree shape and return the path between two stored keys. |
-| [BST Erase and Range Pruning](04%20-%20Hard%20-%20BST%20Erase%20and%20Range%20Pruning/README.md) | Hard | Extend a BST with safe deletion, including nodes with two children and removal of whole out-of-range regions. |
+| [Sum a Supplied BST](01%20-%20Easy%20-%20Sum%20a%20Supplied%20BST/README.md) | Easy | Add one recursive query to working tree storage, like the Library BST sum exercise. |
+| [Count Tree Leaves and Range Keys](02%20-%20Medium%20-%20Count%20Tree%20Leaves%20and%20Range%20Keys/README.md) | Medium | Add two small recursive summaries to supplied tree code. |
+| [Tree Height and In Order](03%20-%20Medium%20-%20Tree%20Height%20and%20In%20Order/README.md) | Medium | Implement two familiar traversals on a supplied BST. |
+| [Build a Small BST](04%20-%20Hard%20-%20Build%20a%20Small%20BST/README.md) | Hard | Implement the core tree operations yourself. |

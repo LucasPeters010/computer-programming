@@ -4,9 +4,9 @@ Work in the order shown below. The level is relative to this category; an easy B
 
 | Exercise | Level | Focus |
 |---|---|---|
-| [Undoable Calculator Log](01%20-%20Medium%20-%20Undoable%20Calculator%20Log/README.md) | Medium | Combine classes, a vector-backed history, strict stream parsing and recoverable errors. |
-| [Limited Service Queue](02%20-%20Medium%20-%20Limited%20Service%20Queue/README.md) | Medium | Combine an owning linked queue of objects with domain-specific exceptions and formatted output. |
-| [Recursive Folder Catalogue](03%20-%20Medium%20-%20Recursive%20Folder%20Catalogue/README.md) | Medium | Combine class modelling, recursive queries and hierarchical text formatting without pointers. |
-| [Sparse Polynomial List](04%20-%20Hard%20-%20Sparse%20Polynomial%20List/README.md) | Hard | Combine a sorted linked representation, cancellation of terms and strict textual input. |
-| [Postfix Expression Evaluator](05%20-%20Hard%20-%20Postfix%20Expression%20Evaluator/README.md) | Hard | Combine strict token parsing, a manually resized stack and expression error handling. |
-| [Shortest Checkpoint Route](06%20-%20Hard%20-%20Shortest%20Checkpoint%20Route/README.md) | Hard | Combine a grid class, recursive search and the requirement to visit a checkpoint before reaching the destination. |
+| [Validated Score List](01%20-%20Medium%20-%20Validated%20Score%20List/README.md) | Medium | Combine a small class with standard exceptions. |
+| [Reverse Valid Numbers](02%20-%20Medium%20-%20Reverse%20Valid%20Numbers/README.md) | Medium | Combine a vector-backed stack with a small stream task. |
+| [Recursive Buffer Total](03%20-%20Medium%20-%20Recursive%20Buffer%20Total/README.md) | Medium | Combine simple array ownership with a recursive query. |
+| [Booking Command Session](04%20-%20Hard%20-%20Booking%20Command%20Session/README.md) | Hard | Combine basic booking logic with a three-command parser. |
+| [Linked Stack with Text Input](05%20-%20Hard%20-%20Linked%20Stack%20with%20Text%20Input/README.md) | Hard | Combine core linked storage and strict parsing without extra business rules. |
+| [Tree Report from Input](06%20-%20Hard%20-%20Tree%20Report%20from%20Input/README.md) | Hard | Combine supplied BST storage with your recursive queries and a small input/output function. |
