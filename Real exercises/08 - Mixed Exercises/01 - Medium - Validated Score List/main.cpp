@@ -1,6 +1,6 @@
 #include "exercise.hpp"
 
-// Public smoke checks, not an exhaustive grading suite. Add your own cases.
+// Original examples plus automatic boundary/error checks. Implement solution.cpp.
 namespace {
 void check(bool condition, const std::string& label) {
     if (!condition) throw std::runtime_error("Check failed: " + label);
@@ -23,7 +23,18 @@ int main() {
     try {
         ScoreList s;expect<std::runtime_error>([&]{s.average();},"No scores");s.add(40);s.add(81);
         expect<std::out_of_range>([&]{s.add(101);},"Invalid score");check(close(s.average(),60.5) && s.passingCount()==1,"valid state");
-        std::cout << "Public checks passed. Add the edge cases from README.md.\n";
+
+        { ScoreList a;check(a.passingCount()==0,"empty passing count");
+          for(int x:{-1,101,INT_MIN,INT_MAX})expect<std::out_of_range>([&]{a.add(x);},"Invalid score");
+          expect<std::runtime_error>([&]{a.average();},"No scores");
+          a.add(0);a.add(54);a.add(55);a.add(100);
+          check(close(a.average(),52.25) && a.passingCount()==2,"score endpoints and threshold");
+          expect<std::out_of_range>([&]{a.add(-1);},"Invalid score");
+          check(close(a.average(),52.25) && a.passingCount()==2,"rejection preserves data");
+          a.add(55);check(close(a.average(),52.8) && a.passingCount()==3,"duplicate scores retained"); }
+        { ScoreList a;a.add(1);a.add(2);check(close(a.average(),1.5),"fractional average"); }
+
+        std::cout << "All example and edge-case checks passed.\n";
         return 0;
     } catch (const std::exception& e) {
         std::cerr << "Not finished: " << e.what() << '\n';
