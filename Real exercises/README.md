@@ -1,6 +1,6 @@
 # Real exercises — revised difficulty
 
-56 exercises, including extra dynamic-array practice and a new beginner-friendly copy-constructor chapter.
+58 exercises, including extra dynamic-array practice and a new beginner-friendly copy-constructor chapter.
 The original seven topics use an easy/medium/hard progression; mixed tasks and final-exam practice follow.
 
 The original full room-booking task was too large for an easy exercise. It is a
@@ -18,7 +18,7 @@ has been reduced in the same way, not merely relabelled.
 | Folder | Exercises |
 |---|---|
 | [01 - Classes and Interfaces](01%20-%20Classes%20and%20Interfaces/README.md) | 1 easy, 2 medium, 1 hard |
-| [02 - Exceptions and Input Validation](02%20-%20Exceptions%20and%20Input%20Validation/README.md) | 1 easy, 2 medium, 1 hard |
+| [02 - Exceptions and Input Validation](02%20-%20Exceptions%20and%20Input%20Validation/README.md) | 1 easy, 4 medium, 1 hard |
 | [03 - Streams and Formatting](03%20-%20Streams%20and%20Formatting/README.md) | 1 easy, 2 medium, 1 hard |
 | [04 - Dynamic Memory and Resizing](04%20-%20Dynamic%20Memory%20and%20Resizing/README.md) | 4 easy, 2 medium, 1 hard |
 | [05 - Linked Lists Stacks and Queues](05%20-%20Linked%20Lists%20Stacks%20and%20Queues/README.md) | 1 easy, 2 medium, 1 hard |
