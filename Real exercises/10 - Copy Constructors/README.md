@@ -1,8 +1,30 @@
 # 10 - Copy Constructors
 
-Start here even if copying is completely new. **8 short exercises: 3 very easy, 4 easy, 1 medium.**
-Each exercise asks for only one function; all normal constructors, accessors and destructors are supplied.
+Start with **9 tiny warm-ups (00A-00I)**, then the original **8 exercises: 3 very easy, 4 easy, 1 medium.**
+The warm-ups usually ask for one or two statements, with explanations beside the TODO.
+The original exercises 01-08 each ask for one copy constructor; other infrastructure is supplied.
 This chapter can be done after Chapter 04; its number does not mean you must finish the final exams first.
+
+## Start with the tiny warm-ups
+
+Do these in order before exercise 01. Each has its own README, exercise.hpp, solution.cpp and automatic main.cpp tests.
+
+| Warm-up | One small step |
+|---|---|
+| 00A - Read Through a Pointer | Read the number at an address |
+| 00B - Change Through a Pointer | Write to the number at an address |
+| 00C - Share an Address Safely | Observe two pointers reaching one integer, without deleting it |
+| 00D - Create One New Integer | Allocate independent storage |
+| 00E - Copy a Number Not an Address | Copy into storage that already exists |
+| 00F - Read the Other Objects Field | Complete one line of a scalar copy constructor |
+| 00G - Pass an Object by Value | Change a local copy without changing the original |
+| 00H - Finish a Deep Copy | Add an allocation before the supplied value-copy line |
+| 00I - Watch Each Owner Be Destroyed | Complete delete and watch the lifetime trace |
+
+Only change the marked TODO block. The throw is a starter placeholder, not part of your solution.
+Warm-up 00I temporarily declares its destructor noexcept(false) so the placeholder exception can
+produce a friendly message; keep the declaration supplied, and replace the throw with deletion.
+Normal destructors should not throw. The live counter illustrates lifetime; it is not a memory-leak detector.
 
 ## Read this first
 
@@ -42,7 +64,7 @@ Never delete the source's memory in a copy constructor.
 | 08 - Copy Size and Capacity | Medium | Preserve used size and spare storage |
 
 The first three deliberately practise what compiler-generated copying could already do.
-Do not use `= default` to skip the requested practice. In all exercises implement only the copy constructor;
+Do not use `= default` to skip the requested practice. In exercises 01-08 implement only the copy constructor;
 do not replace the provided storage with a different container. Assignment is disabled intentionally.
 For practice matching the reference site's style, use explicit types, std:: prefixes and vector.at(i).
 Raw dynamic arrays use data[i]; that is fine.

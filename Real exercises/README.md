@@ -1,6 +1,6 @@
 # Real exercises — revised difficulty
 
-47 exercises, including extra dynamic-array practice and a new beginner-friendly copy-constructor chapter.
+56 exercises, including extra dynamic-array practice and a new beginner-friendly copy-constructor chapter.
 The original seven topics use an easy/medium/hard progression; mixed tasks and final-exam practice follow.
 
 The original full room-booking task was too large for an easy exercise. It is a
@@ -26,8 +26,7 @@ has been reduced in the same way, not merely relabelled.
 | [07 - Binary Search Trees](07%20-%20Binary%20Search%20Trees/README.md) | 1 easy, 2 medium, 1 hard |
 | [08 - Mixed Exercises](08%20-%20Mixed%20Exercises/README.md) | 3 medium, 3 hard |
 | [09 - Final Exam Level](09%20-%20Final%20Exam%20Level/README.md) | 2 exam-style tasks |
-
-| [10 - Copy Constructors](10%20-%20Copy%20Constructors/README.md) | 3 very easy, 4 easy, 1 medium |
+| [10 - Copy Constructors](10%20-%20Copy%20Constructors/README.md) | 9 tiny warm-ups, 3 very easy, 4 easy, 1 medium |
 
 ## What is provided
 
