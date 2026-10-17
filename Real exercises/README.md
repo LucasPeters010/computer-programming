@@ -1,6 +1,6 @@
 # Real exercises — revised difficulty
 
-58 exercises, including extra dynamic-array practice and a new beginner-friendly copy-constructor chapter.
+77 exercises, including extra dynamic-array practice and a new beginner-friendly copy-constructor chapter.
 The original seven topics use an easy/medium/hard progression; mixed tasks and final-exam practice follow.
 
 The original full room-booking task was too large for an easy exercise. It is a
@@ -27,6 +27,7 @@ has been reduced in the same way, not merely relabelled.
 | [08 - Mixed Exercises](08%20-%20Mixed%20Exercises/README.md) | 3 medium, 3 hard |
 | [09 - Final Exam Level](09%20-%20Final%20Exam%20Level/README.md) | 2 exam-style tasks |
 | [10 - Copy Constructors](10%20-%20Copy%20Constructors/README.md) | 9 tiny warm-ups, 3 very easy, 4 easy, 1 medium |
+| [11 - ZyBook 9 Streams Files and Arguments](11%20-%20ZyBook%209%20Streams%20Files%20and%20Arguments/README.md) | 19 gradual exercises in four separate parts |
 
 ## What is provided
 
@@ -41,7 +42,7 @@ has been reduced in the same way, not merely relabelled.
 Use only the methods requested. No extra customer classes, interfaces or features
 are needed. Do not add validation for inputs explicitly guaranteed valid. The
 untouched starter builds but reports Not implemented; supplied infrastructure may
-already work. Public checks include automatic edge cases in Chapters 07-10; they are not an exhaustive grading suite.
+already work. Public checks include automatic edge cases in Chapter 02 exercises 02-04 and 02A/02B, and Chapters 07-11; they are not an exhaustive grading suite.
 
 The final tasks are **90-minute original exam-style practice**, not official exam
 questions or a guarantee of exam scope. They combine core skills, without the
