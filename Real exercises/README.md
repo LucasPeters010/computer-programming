@@ -1,7 +1,7 @@
 # Real exercises — revised difficulty
 
-36 exercises: 7 topics with **easy, medium, medium, hard** progression;
-3 medium and 3 hard mixed tasks; 2 final-exam-level practice tasks.
+47 exercises, including extra dynamic-array practice and a new beginner-friendly copy-constructor chapter.
+The original seven topics use an easy/medium/hard progression; mixed tasks and final-exam practice follow.
 
 The original full room-booking task was too large for an easy exercise. It is a
 medium+ reference point for this collection. Most revised easy tasks have one main
@@ -20,12 +20,14 @@ has been reduced in the same way, not merely relabelled.
 | [01 - Classes and Interfaces](01%20-%20Classes%20and%20Interfaces/README.md) | 1 easy, 2 medium, 1 hard |
 | [02 - Exceptions and Input Validation](02%20-%20Exceptions%20and%20Input%20Validation/README.md) | 1 easy, 2 medium, 1 hard |
 | [03 - Streams and Formatting](03%20-%20Streams%20and%20Formatting/README.md) | 1 easy, 2 medium, 1 hard |
-| [04 - Dynamic Memory and Resizing](04%20-%20Dynamic%20Memory%20and%20Resizing/README.md) | 1 easy, 2 medium, 1 hard |
+| [04 - Dynamic Memory and Resizing](04%20-%20Dynamic%20Memory%20and%20Resizing/README.md) | 4 easy, 2 medium, 1 hard |
 | [05 - Linked Lists Stacks and Queues](05%20-%20Linked%20Lists%20Stacks%20and%20Queues/README.md) | 1 easy, 2 medium, 1 hard |
 | [06 - Recursion and Backtracking](06%20-%20Recursion%20and%20Backtracking/README.md) | 1 easy, 2 medium, 1 hard |
 | [07 - Binary Search Trees](07%20-%20Binary%20Search%20Trees/README.md) | 1 easy, 2 medium, 1 hard |
 | [08 - Mixed Exercises](08%20-%20Mixed%20Exercises/README.md) | 3 medium, 3 hard |
 | [09 - Final Exam Level](09%20-%20Final%20Exam%20Level/README.md) | 2 exam-style tasks |
+
+| [10 - Copy Constructors](10%20-%20Copy%20Constructors/README.md) | 3 very easy, 4 easy, 1 medium |
 
 ## What is provided
 
@@ -33,13 +35,14 @@ has been reduced in the same way, not merely relabelled.
 - Runnable public examples in main.cpp; implement the missing bodies in solution.cpp.
 - One optional hint per non-exam task, and short pseudocode where appropriate.
 - Working tree infrastructure in the first three tree tasks and the mixed tree report.
-- No required pairs, maps, deep-copy machinery, matrix resizing, atomic batch imports,
+- Outside the dedicated copy-constructor chapter, no required deep-copy machinery.
+  No required pairs, maps, matrix resizing, atomic batch imports,
   complex CSV parsing, tree deletion or ownership-transfer operations.
 
 Use only the methods requested. No extra customer classes, interfaces or features
 are needed. Do not add validation for inputs explicitly guaranteed valid. The
 untouched starter builds but reports Not implemented; supplied infrastructure may
-already work. Public checks are examples, not an exhaustive grading suite.
+already work. Public checks include automatic edge cases in Chapters 07-10; they are not an exhaustive grading suite.
 
 The final tasks are **90-minute original exam-style practice**, not official exam
 questions or a guarantee of exam scope. They combine core skills, without the
